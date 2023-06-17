@@ -23,7 +23,7 @@
                     <path d="M16 3h5v5M4 20L20.2 3.8M21 16v5h-5M15 15l5.1 5.1M4 4l5 5" />
                 </svg></button>
             <iframe id="chatFrame" width="100%" height="100%" marginheight="0" marginwidth="0" frameborder="0"
-                scrolling="no" src="https://www.destiny.gg/embed/chat"></iframe>
+                scrolling="no" src="https://chat.strims.gg"></iframe>
         </div>
     </div>
 
@@ -33,10 +33,10 @@
         changeChatBtn.addEventListener("click", function () {
             var currentSrc = chatFrame.src;
 
-            if (currentSrc === "https://www.destiny.gg/embed/chat") {
+            if (currentSrc === "https://chat.strims.gg") {
                 chatFrame.src = "https://www.twitch.tv/embed/xqc/chat?parent=ringomar.github.io&darkpopout";
             } else {
-                chatFrame.src = "https://www.destiny.gg/embed/chat";
+                chatFrame.src = "https://chat.strims.gg";
             }
         });
     </script>
