@@ -10,7 +10,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3.5fr 1fr;
 }
 
 @media only screen and (max-width: 480px) {
