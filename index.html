@@ -17,29 +17,10 @@
             </iframe>
         </div>
         <div class="chat">
-            <button id="changeChatBtn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="#ffc343" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M16 3h5v5M4 20L20.2 3.8M21 16v5h-5M15 15l5.1 5.1M4 4l5 5" />
-                </svg></button>
             <iframe id="chatFrame" width="100%" height="100%" marginheight="0" marginwidth="0" frameborder="0"
-                scrolling="no" src="https://chat.strims.gg"></iframe>
+                scrolling="no" src="https://www.twitch.tv/embed/xqc/chat?parent=ringomar.github.io&darkpopout"></iframe>
         </div>
     </div>
-
-    <script>
-        var chatFrame = document.getElementById("chatFrame");
-        var changeChatBtn = document.getElementById("changeChatBtn");
-        changeChatBtn.addEventListener("click", function () {
-            var currentSrc = chatFrame.src;
-
-            if (currentSrc === "https://chat.strims.gg") {
-                chatFrame.src = "https://www.twitch.tv/embed/xqc/chat?parent=ringomar.github.io&darkpopout";
-            } else {
-                chatFrame.src = "https://chat.strims.gg";
-            }
-        });
-    </script>
 </body>
 
 </html>
